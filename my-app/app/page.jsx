@@ -8,28 +8,26 @@ import Fith from "./Fith";
 import Sev from "./Sev";
 import Footer from "./Footer";
 
-
 export default function Home() {
   return (
-  <>
+    <>
+      <div className="overflow-hidden">
+        <Nav />
 
-<div className="overflow-hidden">
-  <Nav/>
+        <First />
 
-<First/>
+        <Second />
 
-<Second/>
+        <Third />
 
-<Third/>
+        <Fouth />
 
-<Fouth/>
+        <Fith />
 
-<Fith/>
+        <Sev />
 
-<Sev/>
-
-<Footer/>
-</div>
-</>
+        <Footer />
+      </div>
+    </>
   );
 }
