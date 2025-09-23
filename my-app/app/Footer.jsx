@@ -1,4 +1,5 @@
 import React from "react";
+import FadeIn from "./FadeIn";
 
 function Footer() {
   return (
@@ -29,23 +30,42 @@ function Footer() {
         </div>
 
         <div className="flex justify-center items-center text-center py-15 myAbban gap-8 font-bold text-3xl text-lime-400">
-          {" "}
-          <p>
-            Join Our Community
-          </p>
-          <p>Join Our Community</p>
-          <p>Join Our Community</p>
-          <p>Join Our Community</p>
-          <p>Join Our Community</p>
-          <p>Join Our Community</p>
-          <p>Join Our Community</p>
-          <p>Join Our Community</p>
-          <p>Join Our Community</p>
-          <p>Join Our Community</p>
-          <p>Join Our Community</p>
+          <FadeIn delay={0}>
+            <p>Join Our Community</p>
+          </FadeIn>
+          <FadeIn delay={0.1}>
+            <p>Join Our Community</p>
+          </FadeIn>
+          <FadeIn delay={0.2}>
+            <p>Join Our Community</p>
+          </FadeIn>
+          <FadeIn delay={0.3}>
+            <p>Join Our Community</p>
+          </FadeIn>
+          <FadeIn delay={0.4}>
+            <p>Join Our Community</p>
+          </FadeIn>
+          <FadeIn delay={0.5}>
+            <p>Join Our Community</p>
+          </FadeIn>
+          <FadeIn delay={0.6}>
+            <p>Join Our Community</p>
+          </FadeIn>
+          <FadeIn delay={0.7}>
+            <p>Join Our Community</p>
+          </FadeIn>
+          <FadeIn delay={0.8}>
+            <p>Join Our Community</p>
+          </FadeIn>
+          <FadeIn delay={0.9}>
+            <p>Join Our Community</p>
+          </FadeIn>
+          <FadeIn delay={1}>
+            <p>Join Our Community</p>
+          </FadeIn>
         </div>
 
-        <div className="flex justify-center items-center gap-3 flex-wrap">
+        <div className="flex justify-center items-center gap-3 flex-wrap mt-5">
           <img
             src="https://i.pinimg.com/736x/e5/1d/19/e51d196eda65d3d222c611efd2bb8c7b.jpg"
             className="size-8 border-2 p-1 border-white hover:border-lime-400 rounded-full cursor-pointer hover:scale-110 duration-500"

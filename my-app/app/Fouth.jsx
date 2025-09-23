@@ -1,8 +1,9 @@
 import React from "react";
+import FadeIn from "./FadeIn";
 
 function Fouth() {
   return (
-    <div>
+    <FadeIn>
       <div className="mx-auto flex justify-center items-center px-5 lg:px-10 pt-5 mt-12">
         <div className="grid lg:grid-cols-2 rounded-2xl overflow-hidden">
           <div className="w-full h-96 flex items-center justify-center bg-black">
@@ -45,7 +46,7 @@ function Fouth() {
           </div>
         </div>
       </div>
-    </div>
+    </FadeIn>
   );
 }
 
