@@ -5,10 +5,10 @@ function Sev() {
   return (
     <div className="px-5 lg:px-10 pb-16">
       <FadeIn>
-        <p className="font-bold text-xl md:text-2xl text-gray-600 lg:text-4xl text-center">
+        <p className="font-bold text-xl md:text-2xl lg:text-4xl text-center">
           Perfect Plan
         </p>
-        <p className="font-bold text-lg md:text-xl lg:text-2xl text-center">
+        <p className="font-semibold text-lg md:text-xl lg:text-2xl text-center text-neutral-500">
           For Your Goal
         </p>
       </FadeIn>
@@ -16,7 +16,7 @@ function Sev() {
       <div className="mt-8 grid md:grid-cols-3 gap-6">
         {/* Card 1 */}
         <FadeIn className="h-full">
-          <div className="rounded-3xl h-full flex flex-col justify-between bg-black/90 p-8 pt-9 hover:scale-[1.02] cursor-pointer duration-500 text-white">
+          <div className="rounded-3xl h-full flex flex-col justify-between bg-neutral-900 p-8 pt-9 hover:scale-[1.02] cursor-pointer duration-500 text-white">
             <p className="text-3xl font-semibold">Basic Plan</p>
             <p className="text-lg mb-4">$29.99/month</p>
             <div className="space-y-2 opacity-60 text-sm md:text-base">
@@ -52,7 +52,7 @@ function Sev() {
 
         {/* Card 3 */}
         <FadeIn className="h-full" delay={0.4}>
-          <div className="rounded-3xl h-full flex flex-col justify-between bg-black/90 p-8 pt-9 hover:scale-[1.02] cursor-pointer duration-500 text-white">
+          <div className="rounded-3xl h-full flex flex-col justify-between bg-neutral-900 p-8 pt-9 hover:scale-[1.02] cursor-pointer duration-500 text-white">
             <p className="text-3xl font-semibold">Premium Plan</p>
             <p className="text-lg mb-4">$79.99/month</p>
             <div className="space-y-2 opacity-60 text-sm md:text-base">

@@ -19,7 +19,7 @@ function Fouth() {
           </div>
 
           <div className="text-white/90 bg-black flex flex-col items-center justify-center py-5">
-            <div className="px-10 py-5">
+            <div className="lg:px-7 py-5">
               <button className="px-7 py-2 border-1 rounded-full hover:cursor-pointer">
                 Complete equipment
               </button>

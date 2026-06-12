@@ -4,7 +4,7 @@ import FadeIn from "./FadeIn";
 function Second() {
   return (
     <div>
-      <div className="min-h-[600px] mt-5 px-5 lg:px-10 bg-white text-black">
+      <div className="min-h-[600px] px-5 lg:px-10 py-10 bg-white text-black">
         <FadeIn>
           <div className="py-10">
             <div className="pb-5">
@@ -22,10 +22,10 @@ function Second() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
             </p>
             <div className="pt-2 -space-x-1">
-              <button className="px-7 py-2 rounded-3xl bg-lime-400 hover:cursor-grab active:cursor-grabbing">
+              <button className="px-7 py-2 border-2 border-lime-400 rounded-3xl bg-lime-400 hover:cursor-grab active:cursor-grabbing">
                 Browse More
               </button>
-              <button className="px-3 py-2 rounded-3xl bg-lime-400 hover:cursor-grab active:cursor-grabbing">
+              <button className="px-3 py-2 border-2 border-lime-400 rounded-3xl bg-lime-400 hover:cursor-grab active:cursor-grabbing">
                 →
               </button>
             </div>

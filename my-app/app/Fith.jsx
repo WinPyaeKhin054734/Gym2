@@ -15,7 +15,7 @@ function Fith() {
             pariatur.
           </p>
           <div className="pt-2">
-            <button className="px-7 py-2 rounded-3xl border-2 border-lime-400 bg-lime-400 hover:cursor-grab active:cursor-grabbing">
+            <button className="px-7 py-2 rounded-3xl border-2 border-lime-400 text-black font-semibold bg-lime-400 hover:cursor-grab active:cursor-grabbing">
               Join Now
             </button>
           </div>

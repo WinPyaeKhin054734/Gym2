@@ -4,11 +4,11 @@ import FadeIn from "./FadeIn";
 function Footer() {
   return (
     <div>
-      <div className="min-h-[300px] flex flex-col justify-center py-5 bg-black px-5 md:px-10">
+      <div className="flex flex-col justify-center pt-8 pb-4 bg-neutral-900 px-5 md:px-10">
         {/* Navbar */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-5">
           {/* Logo */}
-          <div className="text-white font-bold text-3xl md:text-4xl pe-12">
+          <div className="text-white font-bold text-3xl md:text-4xl lg:pe-12">
             <span className="text-lime-400">X</span>FIX
           </div>
 
@@ -29,43 +29,43 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex justify-center items-center text-center py-15 myAbban gap-8 font-bold text-3xl text-lime-400">
+        <div className="flex justify-center items-center text-center py-8 myAbban gap-8 font-bold text-3xl text-lime-400">
           <FadeIn delay={0}>
-            <p>Join Our Community</p>
+            <p className="rotate-10">Join Our Community</p>
           </FadeIn>
           <FadeIn delay={0.1}>
-            <p>Join Our Community</p>
+            <p className="rotate-10">Join Our Community</p>
           </FadeIn>
           <FadeIn delay={0.2}>
-            <p>Join Our Community</p>
+            <p className="rotate-10">Join Our Community</p>
           </FadeIn>
           <FadeIn delay={0.3}>
-            <p>Join Our Community</p>
+            <p className="rotate-10">Join Our Community</p>
           </FadeIn>
           <FadeIn delay={0.4}>
-            <p>Join Our Community</p>
+            <p className="rotate-10">Join Our Community</p>
           </FadeIn>
           <FadeIn delay={0.5}>
-            <p>Join Our Community</p>
+            <p className="rotate-10">Join Our Community</p>
           </FadeIn>
           <FadeIn delay={0.6}>
-            <p>Join Our Community</p>
+            <p className="rotate-10">Join Our Community</p>
           </FadeIn>
           <FadeIn delay={0.7}>
-            <p>Join Our Community</p>
+            <p className="rotate-10">Join Our Community</p>
           </FadeIn>
           <FadeIn delay={0.8}>
-            <p>Join Our Community</p>
+            <p className="rotate-10">Join Our Community</p>
           </FadeIn>
           <FadeIn delay={0.9}>
-            <p>Join Our Community</p>
+            <p className="rotate-10">Join Our Community</p>
           </FadeIn>
           <FadeIn delay={1}>
-            <p>Join Our Community</p>
+            <p className="rotate-10">Join Our Community</p>
           </FadeIn>
         </div>
 
-        <div className="flex justify-center items-center gap-3 flex-wrap mt-5">
+        <div className="flex justify-center items-center gap-3 flex-wrap">
           <img
             src="https://i.pinimg.com/736x/e5/1d/19/e51d196eda65d3d222c611efd2bb8c7b.jpg"
             className="size-8 border-2 p-1 border-white hover:border-lime-400 rounded-full cursor-pointer hover:scale-110 duration-500"
